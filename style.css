@@ -6,14 +6,18 @@ body{
     color:lightsalmon;
 }
 h1{
-    font-size: 40px;
+    font-size: 80px;
     text-transform: capitalize;
 }
+
 p{
     text-transform: capitalize;
+    line-height: 1.4;
+    font-size:17px;
 }
 section{
     display: flex;
+    margin-bottom: 170px;
 }
 .width-half{
     width: 50%;
@@ -23,14 +27,30 @@ section{
     width: 90%;
 }
 p{
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .bottom{
     text-decoration: none;
     background-image: linear-gradient(yellow, red);
-    padding: 10px 35px;
-    border-radius: 20px;
+    padding: 20px 50px;
+    border-radius: 30px;
     color: white;
     font-weight: 400;
     box-shadow: 3px 2px 5px rgb(143, 78, 41);
 }
+.width-half .small{
+    width: 50%;
+    margin-left: 120px;
+}
+h2{
+    font-size: 50px;
+}
+.about-me{
+    background-image: url(images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    padding-top: 8%;
+}
+
+
+
+
